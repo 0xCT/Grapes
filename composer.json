@@ -1,23 +1,23 @@
-{
-    "name": "0xct/grapes",
-    "type": "library",
-    "description": "Framework PHP",
-    "keywords": ["Framework","EasyToUse"],
-    "homepage": "http://www.thibaudcanaud.fr/",
-    "license": "MIT",
-    "version": "3.0.0",
-    "minimum-stability" : "dev",
-    "prefer-stable" : true,
-    "authors": [
-        {
-            "name": "0xCT",
-            "email": "thibaud.canaud@gmail.com"
+"repositories": [
+    {
+        "name": "0xct/grapes",
+        "type": "library",
+        "description": "Framework PHP",
+        "keywords": ["Framework","EasyToUse"],
+        "homepage": "http://www.thibaudcanaud.fr/",
+        "license": "MIT",
+        "version": "3.0.0",
+        "authors": [
+            {
+                "name": "0xCT",
+                "email": "thibaud.canaud@gmail.com"
+            }
+        ],
+        "require": {
+            "twig/twig": "*"
+        },
+        "autoload" : {
+            "psr-4" :   {"CT\\Grapes\\" : "CT/Grapes"}
         }
-    ],
-    "require": {
-        "twig/twig": "*"
-    },
-    "autoload" : {
-        "psr-4" :   {"CT\\Grapes\\" : "CT/Grapes"}
     }
-}
+]
