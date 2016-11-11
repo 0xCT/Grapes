@@ -2,14 +2,16 @@
     "name": "0xct/grapes",
     "description": "Framework PHP",
     "type": "library",
-    "require": {
-        "twig/twig": "~1.0"
-    },
     "license": "MIT",
     "authors": [
         {
             "name": "0xCT",
             "email": "thibaud.canaud@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "0xct/grapes" : "dev-master",
+        "twig/twig": "~1.0"
+    },
 }
