@@ -11,6 +11,7 @@
             "email": "thibaud.canaud@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.2.7"
     },
