@@ -11,8 +11,8 @@
             "email": "thibaud.canaud@gmail.com"
         }
     ],
-    "require-dev": {
-        "twig/twig": "^1.27"
+    "require": {
+        "twig/twig": "1.0.*@dev"
     },
     "autoload" : {
         "psr-4" :   {"CT\\Grapes\\" : "CT/Grapes"}
