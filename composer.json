@@ -9,9 +9,9 @@
             "email": "thibaud.canaud@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "require": {
-        "0xct/grapes" : "dev-master",
-        "twig/twig": "~1.0"
-    },
+        "twig/twig": "~1.0",
+        "0xct/grapes": "*"
+    }
 }
