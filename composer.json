@@ -11,7 +11,11 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "twig/twig": "~1.0",
         "0xct/grapes": "*"
+    },
+    "require-dev" : {
+        
+        "twig/twig": "~1.0",
     }
+
 }
