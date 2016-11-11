@@ -59,9 +59,7 @@ class TwigTreatment {
         if (self::$twig != NULL) return 0;
         \Twig_Autoloader::register();
         $dirs = TwigLoader::getDirs();
-        $loaderTwig = new \Twig_Loader_Filesystem($dirs, array(
-            'cache' => false,
-        ));
+        $loaderTwig = new \Twig_Loader_Filesystem($dirs);
         self::$twig = new \Twig_Environment($loaderTwig);
         TwigLoader::getExt();
         
