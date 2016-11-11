@@ -1,7 +1,9 @@
 {
     "name": "0xct/grapes",
-    "description": "Framework PHP",
     "type": "library",
+    "description": "Framework PHP",
+    "keywords": ["Framework","EasyToUse"],
+    "homepage": "http://www.thibaudcanaud.fr/",
     "license": "MIT",
     "authors": [
         {
@@ -9,11 +11,13 @@
             "email": "thibaud.canaud@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
-        "0xct/grapes": "*"
+        "php": ">=5.2.7"
     },
-    "require-dev" : {
-        "twig/twig": "~1.0"
+    "require-dev": {
+        "twig/twig": "^1.27"
+    },
+    "autoload" : {
+        "psr-4" :   {"CT\\Grapes\\" : "CT/Grapes"}
     }
 }
